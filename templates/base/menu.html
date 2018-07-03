@@ -1,0 +1,14 @@
+{% for item in menu_permission_list %}
+    <li>
+        <a href="{{ item.0 }}"><i class="fa fa-dashboard"></i>{{ item.1 }}</a>
+    </li>
+{% endfor %}
+
+
+
+{#<li>#}
+{#    <a class="active-menu" href="/user/"><i class="fa fa-dashboard"></i>用户查看</a>#}
+{#</li>#}
+{#<li>#}
+{#    <a href="/roles/"><i class="fa fa-desktop"></i>角色查看</a>#}
+{#</li>#}
